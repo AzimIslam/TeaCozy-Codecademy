@@ -1,0 +1,168 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+nav {
+    height: 69px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background-color: inherit;
+}
+
+nav ul  {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+nav img {
+    height: 50px;
+    margin-left: 10px;
+    display: flex;
+    padding: 10px;
+}
+
+.container {
+    position: relative;
+    top: 120px;
+    margin-top: 20px;
+}
+
+header {
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    top: 70px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+header #mission {
+    background-color: black;
+    width: 100%;
+}
+
+header #mission h2, header #mission h4 {
+    margin: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bolder
+}
+
+h3 {
+    font-size: 1.17em;
+    font-weight: bolder;
+}
+
+h4 {
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.tea img {
+    height: 200px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.tea h4{
+    margin-top: 10px;
+}
+
+#teasInfo {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#locations {
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-size: cover;
+    height: 500px;
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    padding-top: 50px;
+    margin-top: 70px;
+}
+
+#boxes {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#boxes .eachLocation {
+    margin-left: 40px;
+    background-color: black;
+    width: 300px;
+}
+
+#boxes .eachLocation h3, #boxes .eachLocation p {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contactDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+footer {
+    position: relative;
+    margin-left: 20px;
+    text-align: left;
+    clear: both;
+    top: 100px;
+    height: 50px
+}
+
+#teasInfo h4 {
+    margin-top: 40px;
+}
